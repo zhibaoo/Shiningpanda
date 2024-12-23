@@ -14,7 +14,7 @@ board = [
         [0,0,0,0,0,0],
 ]
 
-play_othello(PandaAI()) # ここを自分の作ったAIに変える
+#play_othello(PandaAI()) # ここを自分の作ったAIに変える
 
 import math
 
