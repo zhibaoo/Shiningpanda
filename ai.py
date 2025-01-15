@@ -115,7 +115,7 @@ def evaluate_board(board, stone):
 
     return stable_discs + mobility - potential_mobility * 10 + stone_count_bonus
 
-class KkkkAI:
+class PandaAI:
     def face(self):
         return "💘"
 
@@ -170,4 +170,4 @@ class KkkkAI:
                     break
             return min_eval, best_move
 
-play_othello(KkkkAI())
+play_othello(PandaAI())
