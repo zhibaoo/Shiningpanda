@@ -1,4 +1,4 @@
-from kogi_canvas import play_othello, PandaAI
+from kogi_canvas import play_othello, KkkkAI
 
 BLACK=1
 WHITE=2
